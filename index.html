@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Распоред годишњих одмора</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Апликација за распоред годишњих одмора</h1>
+
+        <nav>
+            <button onclick="showTab('zaposleni')">Запослени</button>
+            <button onclick="showTab('podesavanja')">Подешавања</button>
+            <button onclick="showTab('raspored')">Распоред</button>
+            <button onclick="showTab('izvestaj')">Извештај</button>
+            <button onclick="showTab('backup')">Бекап</button>
+        </nav>
+
+        <!-- Tab: Zaposleni -->
+        <div id="zaposleni" class="tab">
+            <h2>Унос запослених</h2>
+            <form id="dodajZaposlenog">
+                <input type="text" id="ime" placeholder="Име и презиме" required />
+                <input type="text" id="kib" placeholder="КИБ број" required />
+                <input type="number" id="goDana" placeholder="Број дана ГО" required />
+                <input type="text" id="datumSlave" placeholder="Датум славе (нпр. 15.03)" required />
+                <input type="number" id="delovi" placeholder="Број делова (2 или 3)" min="2" max="3" required />
+                <input type="text" id="zelje" placeholder="Жељени месеци (нпр. 6,7,8)" />
+                <button type="submit">Додај запосленог</button>
+            </form>
+
+            <table id="tabelaZaposlenih">
+                <thead>
+                    <tr>
+                        <th>Име</th>
+                        <th>КИБ</th>
+                        <th>ГО дана</th>
+                        <th>Слава</th>
+                        <th>Делови</th>
+                        <th>Жељени месеци</th>
+                        <th>Акције</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <!-- Forma za uređivanje -->
+            <div id="formaUredjivanja"
+                style="display:none; margin-top: 20px; padding: 15px; border: 1px solid #ddd; background: #f9f9f9;">
+                <h3>Уређивање запосленог: <span id="imeZaposlenog"></span></h3>
+                <input type="hidden" id="editId" />
+
+                <label>Број делова ГО (2 или 3):
+                    <input type="number" id="editDelovi" min="2" max="3" required />
+                </label>
+
+                <div id="periodiForma"></div>
+
+                <button onclick="dodajPeriod()">Додај период</button>
+                <button onclick="sacuvajIzmene()">Сачувај измене</button>
+                <button onclick="zatvoriFormu()">Откажи</button>
+            </div>
+        </div>
+
+        <!-- Tab: Podešavanja -->
+        <div id="podesavanja" class="tab" style="display:none;">
+            <h2>Подешавање државних празника</h2>
+            <label>Година: <input type="number" id="godinaPraznika" value="2025" /></label>
+            <textarea id="prazniciInput"
+                placeholder="Унеси датуме празника (YYYY-MM-DD), сваки у новом реду"></textarea>
+            <button onclick="sacuvajPraznike()">Сачувај празнике</button>
+        </div>
+
+        <!-- Tab: Raspored -->
+        <div id="raspored" class="tab" style="display:none;">
+            <h2>Генерисање распореда</h2>
+            <label>Година: <input type="number" id="godinaRaspored" value="2025" /></label>
+            <button onclick="generisiRaspored()">Генериши распоред</button>
+            <div id="prikazRasporeda"></div>
+        </div>
+
+        <!-- Tab: Izveštaj -->
+        <div id="izvestaj" class="tab" style="display:none;">
+            <h2>Извештај за штампу</h2>
+            <button onclick="prikaziIzvestaj()">Прикажи месечни извештај</button>
+            <div id="stampa"></div>
+        </div>
+
+        <!-- Tab: Backup -->
+        <div id="backup" class="tab" style="display:none;">
+            <h2>Резервна копија података</h2>
+            <p>Klikom na dugme preuzmite <code>zaposleni.json</code> и <code>praznici.json</code> za prebacivanje na
+                drugi računar.</p>
+            <button onclick="preuzmiPodatke()">Преузми податке</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
