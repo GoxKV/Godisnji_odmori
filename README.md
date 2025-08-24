@@ -8,6 +8,10 @@ https://chat.qwen.ai/c/aa39709c-0510-4e05-b94f-9b38cb42de9f
 
 https://github.com/GoxKV/Godisnji_odmori/tree/main/data
 
+Preuzmi projekat sa GitHub-a
+Ukucaj sledeću komandu:
+git clone https://github.com/GoxKV/Godisnji_odmori.git
+Pritisni Enter.
 
 
 Ako uradiš izmene – vrati ih na GitHub
