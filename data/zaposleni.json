@@ -1,0 +1,34 @@
+[
+  {
+    "ime": "Goran Milovanovic",
+    "kib": "031931",
+    "goDana": 29,
+    "datumSlave": "19.12.",
+    "delovi": 3,
+    "zelje": "7,9,5"
+  },
+  {
+    "ime": "Petar Petrović",
+    "kib": "023456",
+    "goDana": 20,
+    "datumSlave": "15.03.",
+    "delovi": 2,
+    "zelje": "6,7,8"
+  },
+  {
+    "ime": "Dejan Nikic",
+    "kib": "012332",
+    "goDana": 26,
+    "datumSlave": "19.12.",
+    "delovi": 3,
+    "zelje": "9,5,7"
+  },
+  {
+    "ime": "Jasmin Dudic",
+    "kib": "098765",
+    "goDana": 26,
+    "datumSlave": "19.12.",
+    "delovi": 2,
+    "zelje": "5,7"
+  }
+]
