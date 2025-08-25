@@ -105,3 +105,71 @@ tr:hover {
 .raspored-tabela th {
   background-color: #e9f7ef;
 }
+
+.izvestaj-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.izvestaj-tabela th,
+.izvestaj-tabela td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.izvestaj-tabela th {
+  background-color: #f0f0f0;
+}
+
+.izvestaj-tabela tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.izvestaj-tabela .visoko {
+  background-color: #ffebee;
+  font-weight: bold;
+}
+
+.izvestaj-tabela .nisko {
+  color: #555;
+}
+
+.izvestaj-mesec {
+  width: 600px;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  /* <-- OVO CENTRIRA */
+  font-size: 14px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.izvestaj-mesec th,
+.izvestaj-mesec td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.izvestaj-mesec th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.izvestaj-mesec tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.izvestaj-mesec tr:hover {
+  background-color: #f5f5f5;
+}
+
+#prikazIzvestajaMesec {
+  text-align: center;
+  /* Centriraj sadržaj unutar */
+}
