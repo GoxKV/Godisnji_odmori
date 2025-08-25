@@ -15,6 +15,8 @@
       <button onclick="showTab('podesavanja')">Подешавања</button>
       <button onclick="showTab('raspored')">Распоред</button>
       <button onclick="showTab('backup')">Бекап</button>
+      <button onclick="showTab('izvestaj')">Извештај</button>
+      <button onclick="showTab('izvestajMesec')">По месецима</button>
     </nav>
 
     <!-- Tab: Zaposleni -->
@@ -71,6 +73,22 @@
       <p><strong>Увучи</strong>: Учитајте податке из JSON фајла.</p>
       <button onclick="uvozIzFajla()">Увучи из JSON фајла</button>
     </div>
+
+    <!-- Tab: Извештај -->
+    <div id="izvestaj" class="tab" style="display:none;">
+      <h2>Дневни извештај о коришћењу годишњег одмора</h2>
+      <label>Година: <input type="number" id="godinaIzvestaj" value="2025" /></label>
+      <button onclick="generisiIzvestaj()">Генериши извештај</button>
+      <div id="prikazIzvestaja"></div>
+    </div>
+  </div>
+
+  <!-- Tab: Извештај по месецима -->
+  <div id="izvestajMesec" class="tab" style="display:none;">
+    <h2>Извештај по месецима – број ослуствених дана</h2>
+    <label>Година: <input type="number" id="godinaIzvestajMesec" value="2025" /></label>
+    <button onclick="generisiIzvestajPoMesecima()">Генериши извештај</button>
+    <div id="prikazIzvestajaMesec"></div>
   </div>
 
   <script src="script.js"></script>
