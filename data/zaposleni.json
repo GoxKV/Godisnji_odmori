@@ -1,34 +1,250 @@
 [
   {
-    "ime": "Goran Milovanovic",
-    "kib": "031931",
+    "ime": "Бошковић Мартин",
+    "kib": "045079",
+    "goDana": 31,
+    "datumSlave": "24.11.",
+    "delovi": 3,
+    "zelje": "3,7,10"
+  },
+  {
+    "ime": "Веселиновић Никола",
+    "kib": "045537",
+    "goDana": 28,
+    "datumSlave": "20.01.",
+    "delovi": 3,
+    "zelje": "1,6,12"
+  },
+  {
+    "ime": "Дамјановић Јован",
+    "kib": "045854",
+    "goDana": 26,
+    "datumSlave": "19.12.",
+    "delovi": 3,
+    "zelje": "3,8,11"
+  },
+  {
+    "ime": "Дебељак Раде",
+    "kib": "025710",
+    "goDana": 35,
+    "datumSlave": "21.11.",
+    "delovi": 3,
+    "zelje": "2,6,9"
+  },
+  {
+    "ime": "Ђокић Дејан",
+    "kib": "041447",
+    "goDana": 31,
+    "datumSlave": "27.10.",
+    "delovi": 3,
+    "zelje": "3,6,10"
+  },
+  {
+    "ime": "Ђокић Огњен",
+    "kib": "045077",
+    "goDana": 27,
+    "datumSlave": "08.08.",
+    "delovi": 3,
+    "zelje": "6,9,11"
+  },
+  {
+    "ime": "Ђурђевић Марко",
+    "kib": "045656",
+    "goDana": 26,
+    "datumSlave": "24.11.",
+    "delovi": 3,
+    "zelje": "2,7,10"
+  },
+  {
+    "ime": "Ђурђевић Ненад",
+    "kib": "045467",
+    "goDana": 27,
+    "datumSlave": "20.01.",
+    "delovi": 3,
+    "zelje": "1,8,12"
+  },
+  {
+    "ime": "Златић Небојша",
+    "kib": "031764",
+    "goDana": 35,
+    "datumSlave": "02.08.",
+    "delovi": 3,
+    "zelje": "4,8,11"
+  },
+  {
+    "ime": "Игрутиновић Иван",
+    "kib": "045078",
+    "goDana": 27,
+    "datumSlave": "31.10.",
+    "delovi": 3,
+    "zelje": "5,9,12"
+  },
+  {
+    "ime": "Илић Филип",
+    "kib": "045850",
+    "goDana": 28,
+    "datumSlave": "20.01.",
+    "delovi": 3,
+    "zelje": "3,7,10"
+  },
+  {
+    "ime": "Јаковљевић Никола",
+    "kib": "045076",
+    "goDana": 27,
+    "datumSlave": "31.12.",
+    "delovi": 3,
+    "zelje": "1,6,12"
+  },
+  {
+    "ime": "Кошанин Стефан",
+    "kib": "045464",
+    "goDana": 30,
+    "datumSlave": "27.10.",
+    "delovi": 3,
+    "zelje": "3,5,11"
+  },
+  {
+    "ime": "Лазовић Александар",
+    "kib": "045080",
+    "goDana": 29,
+    "datumSlave": "09.12.",
+    "delovi": 3,
+    "zelje": "1,6,11"
+  },
+  {
+    "ime": "Марковић Ђорђе",
+    "kib": "045075",
     "goDana": 29,
     "datumSlave": "19.12.",
     "delovi": 3,
-    "zelje": "7,9,5"
+    "zelje": "3,5,12"
   },
   {
-    "ime": "Petar Petrović",
-    "kib": "023456",
-    "goDana": 20,
-    "datumSlave": "15.03.",
-    "delovi": 2,
-    "zelje": "6,7,8"
+    "ime": "Медар Стефан",
+    "kib": "045465",
+    "goDana": 30,
+    "datumSlave": "24.11.",
+    "delovi": 3,
+    "zelje": "3,9,11"
   },
   {
-    "ime": "Dejan Nikic",
-    "kib": "012332",
+    "ime": "Милановић Младен",
+    "kib": "045466",
+    "goDana": 29,
+    "datumSlave": "27.10.",
+    "delovi": 3,
+    "zelje": "4,8,10"
+  },
+  {
+    "ime": "Митровић Добросав",
+    "kib": "033059",
+    "goDana": 34,
+    "datumSlave": "20.01.",
+    "delovi": 3,
+    "zelje": "4,7,10"
+  },
+  {
+    "ime": "Николић Јован",
+    "kib": "045655",
+    "goDana": 27,
+    "datumSlave": "20.01.",
+    "delovi": 3,
+    "zelje": "4,9,12"
+  },
+  {
+    "ime": "Петковић Андрија",
+    "kib": "045870",
     "goDana": 26,
+    "datumSlave": "21.11.",
+    "delovi": 3,
+    "zelje": "2,8,11"
+  },
+  {
+    "ime": "Ракић Стефан",
+    "kib": "045074",
+    "goDana": 28,
     "datumSlave": "19.12.",
     "delovi": 3,
-    "zelje": "9,5,7"
+    "zelje": "6,8,10"
   },
   {
-    "ime": "Jasmin Dudic",
-    "kib": "098765",
+    "ime": "Рачић Немања",
+    "kib": "045869",
     "goDana": 26,
-    "datumSlave": "19.12.",
-    "delovi": 2,
-    "zelje": "5,7"
+    "datumSlave": "26.06.",
+    "delovi": 3,
+    "zelje": "3,8,12"
+  },
+  {
+    "ime": "Ристовић Игор",
+    "kib": "043826",
+    "goDana": 31,
+    "datumSlave": "09.01.",
+    "delovi": 3,
+    "zelje": "7,10,12"
+  },
+  {
+    "ime": "Ружин Иван",
+    "kib": "045490",
+    "goDana": 31,
+    "datumSlave": "06.05.",
+    "delovi": 3,
+    "zelje": "5,11,12"
+  },
+  {
+    "ime": "Савић Александар",
+    "kib": "036468",
+    "goDana": 33,
+    "datumSlave": "20.01.",
+    "delovi": 3,
+    "zelje": "2,7,11"
+  },
+  {
+    "ime": "Симовић Немања",
+    "kib": "045073",
+    "goDana": 29,
+    "datumSlave": "21.11.",
+    "delovi": 3,
+    "zelje": "4,7,11"
+  },
+  {
+    "ime": "Стевановић Јеленко",
+    "kib": "025557",
+    "goDana": 34,
+    "datumSlave": "06.05.",
+    "delovi": 3,
+    "zelje": "5,9,12"
+  },
+  {
+    "ime": "Стевановић Сара",
+    "kib": "045657",
+    "goDana": 26,
+    "datumSlave": "14.02.",
+    "delovi": 3,
+    "zelje": "2,5,12"
+  },
+  {
+    "ime": "Урошевић Никола",
+    "kib": "045851",
+    "goDana": 26,
+    "datumSlave": "27.10.",
+    "delovi": 3,
+    "zelje": "2,8,10"
+  },
+  {
+    "ime": "Чамагић Чедомир",
+    "kib": "025854",
+    "goDana": 32,
+    "datumSlave": "21.11.",
+    "delovi": 3,
+    "zelje": "5,8,11"
+  },
+  {
+    "ime": "Шиљевић Дејан",
+    "kib": "045852",
+    "goDana": 26,
+    "datumSlave": "06.05.",
+    "delovi": 3,
+    "zelje": "4,8,10"
   }
 ]
